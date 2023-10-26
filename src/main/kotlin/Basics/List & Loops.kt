@@ -1,16 +1,18 @@
-//Arrays
+package Basics// List
+
 
 fun main() {
-    // array definition
-    val fruits = arrayOf("Kiwi", "Mango", "Banana");
+    // list definition
+    val fruits = listOf("Kiwi", "Mango", "Banana", "Peach");
 
-    //array methods
-    println("size of fruits " + fruits.size)
-    println("Fruit at index 0 : " + fruits[0])
-    println("Fruit at index 1 : " + fruits.get(1))
+//    fruits.add() // throws error cus by default collections are immutable
 
+    // list methods
+        println("size of fruits " + fruits.size)
+        println("Fruit at index 0 : " + fruits[0])
+        println("Fruit at index 1 : " + fruits.get(1))
 
-    // for loop
+// for loop
     println("-----For Loop-----")
     for(fruit in fruits){
         println(fruit)
@@ -24,8 +26,8 @@ fun main() {
 //    }
 
     // lambda syntax : if you have a function and it's only parameter is another function then u can omit the open-close parenthesis all together.
-                    // You can pass the function by specifying the curly braces.
-                    // the forEach syntax expects a function inside, hence we skip the open-close parenthesis
+    // You can pass the function by specifying the curly braces.
+    // the forEach syntax expects a function inside, hence we skip the open-close parenthesis
     fruits.forEach {fruit ->
         println(fruit)
     }
@@ -39,5 +41,5 @@ fun main() {
     }
 
     // index is always the first parameter
-}
 
+}

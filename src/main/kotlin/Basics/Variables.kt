@@ -1,3 +1,5 @@
+package Basics
+
 // top level variable / global variable
 val gravity:Number = 10
 

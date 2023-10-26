@@ -1,4 +1,4 @@
-// Note : Kotlin also differentiates between nullable and non-nullable colection types.
+package Basics// Note : Kotlin also differentiates between nullable and non-nullable colection types.
 // By default, collections are non-nullable
 
 fun main(){

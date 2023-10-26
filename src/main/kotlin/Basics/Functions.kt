@@ -1,4 +1,4 @@
-// functions
+package Basics// functions
 
 // functions also support type inference
 

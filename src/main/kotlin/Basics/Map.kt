@@ -1,4 +1,4 @@
-// Map
+package Basics// Map
 
 fun main() {
     val map = mapOf(1 to "A", 2 to "B", 3 to "C")
