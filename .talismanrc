@@ -1,0 +1,7 @@
+fileignoreconfig:
+- filename: src/main/kotlin/Map.kt
+  checksum: 562090e5d1f891b3be2c5631d3d42595a317885276647fb76ec4e09a408fba10
+- filename: src/main/kotlin/Mutable Collections.kt
+  checksum: 1d0b35007ba960fd601550563a7532e637907ca86efee4ea0c36c84cec15ee30
+- filename: src/main/kotlin/Function Parameters & Arguments.kt
+  checksum: 13971e1164bb2af03ac96c7ddeeeb146a339fcf10310c27f4ad9cf620043ca1d
