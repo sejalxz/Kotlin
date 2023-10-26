@@ -26,7 +26,7 @@ class Person(private val firstName: String = "temp_fname", private val lastName:
     internal var phoneNo : Long = 9987654321L
 
     public var fullName: String = "$firstName $lastName"
-    private fun information(){
+    public fun information(){
         val nickNameToPrint = nickName ?: "No nickname provided"
         println("$firstName ($nickNameToPrint) $lastName")
     }
